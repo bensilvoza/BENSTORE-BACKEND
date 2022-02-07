@@ -15,7 +15,7 @@ router.post("/login", async function (req, res) {});
 
 // ========
 // REGISTER
-// =========
+// ========
 router.get(`/register/${apiEndpointCheckpoint}`, async function (req, res) {
   var data = await Register.find({});
   res.json(data);
